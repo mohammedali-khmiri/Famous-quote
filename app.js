@@ -127,7 +127,7 @@ window.addEventListener("DOMContentLoaded", function () {
 	showPerson();
 });
 
-// set the prev item
+// show the prev item
 prevBtn.addEventListener("click", function () {
 	currentItem--;
 	if (currentItem < 0) {
